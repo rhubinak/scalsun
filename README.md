@@ -23,7 +23,7 @@ Add to build hook :
 Add cron task every minute :
 ```
     crons:
-        autoscaller:
+        autoscaler:
             spec: "*/1 * * * *"
             commands:
                 start: |
